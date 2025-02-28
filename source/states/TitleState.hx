@@ -687,13 +687,13 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['NovaFlare Engine by'], 40);
+					createCoolText(['NovaFlare Engine Thai by'], 40);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Beihu', 40);
+					addMoreText('bianca bubblegum', 40);
 					#else
 					addMoreText('present');
 					#end
@@ -706,7 +706,7 @@ class TitleState extends MusicBeatState
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('Beihu', -40);
 					ngSpr.visible = true;
 				case 9:
 					deleteCoolText();
@@ -718,11 +718,11 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('FNF');
 				case 15:
-					addMoreText('Night');
+					addMoreText('Vs Chilly');
 				case 16:
-					addMoreText('Funkin'); // credTextShit.'\nFunkin';
+					addMoreText('Thai edition'); // credTextShit.'\nFunkin';
 
 				case 17:
 					skipIntro();
